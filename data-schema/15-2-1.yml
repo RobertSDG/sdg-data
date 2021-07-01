@@ -1,8 +1,8 @@
 fields:
-  - name: Value
-    type: number
   - name: Year
     type: integer
+  - name: Value
+    type: number
   - name: Unit measure
     type: string
   - name: Unit multiplier
