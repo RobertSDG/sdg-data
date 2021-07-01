@@ -3,6 +3,14 @@ fields:
     type: number
   - name: Year
     type: integer
+  - name: Unit measure
+    type: string
+  - name: Unit multiplier
+    type: string
+  - name: Observation status
+    type: string
+  - name: GeoCode
+    type: string
   - name: Series
     type: string
     constraints:
