@@ -1,0 +1,31 @@
+fields:
+  - name: Value
+    type: number
+  - name: Year
+    type: integer
+  - name: Series
+    type: string
+    constraints:
+      enum:
+        - Woodland area net change
+        - Above-ground biomass stock
+        - Percentage of woodland within protected areas
+        - Percentage of woodland under long-term management plan
+        - Woodland area under certification scheme
+        - Tonnes per hectare
+  - name: Units
+    type: string
+    constraints:
+      enum:
+        - Percentage (%)
+        - Growth rate (%)
+        - Area (000s hectares)
+  - name: Country
+    type: string
+    constraints:
+      enum:
+        - ""
+        - England
+        - Wales
+        - Scotland
+        - Northern Ireland
