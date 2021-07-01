@@ -94,3 +94,6 @@ docs_indicator_url: https://sdgdata.gov.uk/[id]
 data_schema:
   class: DataSchemaInputTableSchemaYaml
   source: data-schema/*.yml
+  
+data_package:
+  sorting: alphabetical
